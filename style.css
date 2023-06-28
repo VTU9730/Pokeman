@@ -1,0 +1,49 @@
+#div{
+    border: solid 1px grey;
+    width:300px;
+    height:400px;
+    position: absolute;
+    left:40%;
+    top:15%;
+    text-align: center;
+}
+button{
+    position:absolute;
+    bottom: 10%;
+    left:37%;
+}
+.properties{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+img{
+    width:130px;
+    height:130px;
+    color: rgb(195, 238, 78);
+}
+.grass{
+    background-color:rgb(38, 211, 67);
+    padding:7px 14px;
+    border-radius: 10px;
+}
+.normal{
+    background-color: rgb(216, 169, 97);
+    padding:7px 14px;
+    border-radius: 10px;
+}
+.fire{
+    background-color: rgb(236, 125, 20);
+    padding:7px 14px;
+    border-radius: 10px;
+}
+.bug{
+    background-color: rgb(113, 35, 187);
+    padding:7px 14px;
+    border-radius: 10px;
+}
+.water{
+    background-color: rgb(59, 166, 238);
+    padding:7px 14px;
+    border-radius: 10px;
+}

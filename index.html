@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div id="div">
+        <p id="name"></p>
+        <img id="img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="character" />
+        <div class="properties">
+            <p id="color">green</p>
+            <p id="skill">fly</p>
+        </div>
+        <div class="properties">
+            <div>
+                <p><strong id="attack">10</strong></p>
+                <p>Attack</p>
+                 
+            </div>
+            <div>
+                <p><strong id="defence">10</strong></p>
+                <p>Defence</p>
+            </div>
+            <div>
+                <p><strong id="speed">10</strong></p>
+                <p>Speed</p>
+            </div>  
+        </div>
+        <button onclick="randomCharacter()">Generate</button>
+    </div>
+    
+    <script src="server.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
